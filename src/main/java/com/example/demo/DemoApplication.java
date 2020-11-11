@@ -12,7 +12,8 @@ public class DemoApplication {
 		/*
 		 * ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
 		 * HelloWorld obj = (HelloWorld) context.getBean("helloWorld");
-		 * obj.getMessage();
+		 * obj.getMessage()
+		 * 
 		 */
 		SpringApplication.run(DemoApplication.class, args);
 	}
